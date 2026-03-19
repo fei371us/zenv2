@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import NewsBanner from "@/components/NewsBanner";
 import Hero from "@/components/Hero";
 import ServicesSection from "@/components/ServicesSection";
 import CallToAction from "@/components/CallToAction";
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <NewsBanner />
       <main className="flex-grow">
         <Hero />
         <ServicesSection />
