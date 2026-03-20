@@ -47,6 +47,12 @@ export default function Navbar() {
             >
               Contact
             </Link>
+            <Link
+              className="font-montserrat font-medium text-foreground hover:text-primary transition-colors px-3 py-2 rounded-md"
+              href="/licenses"
+            >
+              Software Licenses
+            </Link>
           </div>
           <div className="flex items-center md:hidden">
             <button
@@ -117,6 +123,13 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
+            </Link>
+            <Link
+              className="font-montserrat font-medium text-foreground hover:text-primary transition-colors block px-3 py-2 rounded-md"
+              href="/licenses"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Software Licenses
             </Link>
           </div>
         </div>

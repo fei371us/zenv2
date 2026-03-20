@@ -14,6 +14,9 @@ export default function Hero() {
             <p className="text-muted-foreground text-lg md:text-xl mb-8 max-w-2xl">
               ZenMatrix provides harmony and balance in technological solutions, helping businesses thrive in the digital landscape.
             </p>
+            <p className="text-muted-foreground text-lg md:text-xl mb-8 max-w-2xl">
+              Transforming Businesses with AI, Cloud, and Blockchain Excellence.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button size="lg" asChild>
                 <Link href="/contact">Get Started</Link>
@@ -21,9 +24,6 @@ export default function Hero() {
               <Button variant="outline" size="lg" asChild>
                 <Link href="/services">Learn More</Link>
               </Button>
-              <p className="text-muted-foreground text-lg md:text-xl mb-8 max-w-2xl">
-              Transforming Businesses with AI, Cloud, and Blockchain Excellence.
-              </p>
             </div>
           </div>
           <div className="flex justify-center">
