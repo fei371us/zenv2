@@ -35,33 +35,7 @@ export default function Home() {
         {/* Core Solutions Section */}
         <section className="py-20 bg-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="font-montserrat font-bold text-3xl md:text-4xl mb-4">Core Solutions</h2>
-            <p className="text-muted-foreground mb-4">
-              We deliver end-to-end technology solutions that drive measurable outcomes and accelerate your digital transformation journey.
-            </p>
-            <div className="space-y-6 mb-6">
-              <p className="text-muted-foreground">
-                <strong>AI & Machine Learning:</strong> Our AI solutions have improved client efficiency by an average of 43%, achieved a 95% client satisfaction rate across 50+ completed projects, and reduced implementation time by 60% compared to industry standards. From natural language processing to computer vision applications, our AI offerings are tailored to your business needs and governed by robust data integrity protocols.
-              </p>
-              <p className="text-muted-foreground">
-                <strong>Cloud Solutions:</strong> We design and deploy scalable cloud architectures on AWS, Azure, and Google Cloud to support mission-critical workloads. Our cloud services reduce infrastructure costs by up to 30%, accelerate deployment cycles by 40%, and ensure 99.9% uptime with built-in disaster recovery. Through containerization and microservices, we enable seamless scalability, high availability, and enhanced security compliance.
-              </p>
-              <p className="text-muted-foreground">
-                <strong>Data Analytics:</strong> Our analytics teams develop end-to-end data pipelines, from ETL to real-time streaming analytics, to transform your raw data into actionable intelligence. Organizations leveraging our analytics platforms see a 28% improvement in decision-making speed and a 22% uplift in revenue through targeted, data-driven strategies. Interactive dashboards and AI-powered reporting deliver instant visibility across all functional areas.
-              </p>
-              <p className="text-muted-foreground">
-                <strong>Business Intelligence:</strong> With enterprise-grade BI tools, we consolidate data from multiple sources into unified dashboards, reducing reporting times by 40% and boosting stakeholder engagement. Our BI solutions provide customizable KPI tracking, automated alerts, and predictive scenario modeling to drive strategic planning. By democratizing data access, we empower teams to collaborate effectively and respond proactively to market shifts.
-              </p>
-              <p className="text-muted-foreground">
-                <strong>Digital Transformation:</strong> Our digital transformation services guide organizations through cultural change, process reengineering, and technology adoption. By combining agile frameworks, DevOps practices, and secure API integrations, we accelerate implementation timelines by 50% and improve user adoption rates by 60%. From legacy modernization to SaaS migrations, we enable seamless transitions that future-proof your business and foster continuous innovation.
-              </p>
-              <p className="text-muted-foreground">
-                <strong>Custom Software Development:</strong> Our agile development teams deliver end-to-end bespoke applications tailored to your exact requirements. We achieve 25% faster delivery cycles, 30% lower defect rates, and maintain a 95% satisfaction rate across projects by employing test-driven development, continuous integration, and rigorous code reviews. Our full-stack expertise spans web, mobile, and cloud-native solutions that scale with your business growth.
-              </p>
-            </div>
-            <p className="text-muted-foreground mb-6">
-              Each solution is backed by 50+ successful deployments, a 95% client satisfaction rate, and a 60% reduction in implementation time compared to industry benchmarks. Our collaborative partnership model and commitment to continuous improvement ensure that your organization realizes measurable ROI and maintains a competitive edge in the digital economy.
-            </p>
+            <h2 className="font-montserrat font-bold text-3xl md:text-4xl mb-4">Our Core Solutions</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ServicesSection />
             </div>
